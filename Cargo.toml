@@ -1,0 +1,6 @@
+[package]
+name = "meow"
+version = "0.1.0"
+authors = ["Justin J Russell <justinjrussell001@gmail.com>"]
+
+[dependencies]

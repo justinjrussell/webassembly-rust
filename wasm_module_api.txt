@@ -1,0 +1,128 @@
+ALLOC_DYNAMIC:3
+ALLOC_NONE:4
+ALLOC_NORMAL:0
+ALLOC_STACK:1
+ALLOC_STATIC:2
+AsciiToString:ƒ AsciiToString(ptr)
+ENVIRONMENT:"WEB"
+FS_createDataFile:ƒ (parent, name, data, canRead, canWrite, canOwn)
+FS_createDevice:ƒ (parent, name, input, output)
+FS_createFolder:ƒ (parent, name, canRead, canWrite)
+FS_createLazyFile:ƒ (parent, name, url, canRead, canWrite)
+FS_createLink:ƒ (parent, name, target, canRead, canWrite)
+FS_createPath:ƒ (parent, path, canRead, canWrite)
+FS_createPreloadedFile:ƒ (parent, name, url, canRead, canWrite, onload, onerror, dontCreateFile, canOwn, preFinish)
+FS_unlink:ƒ (path)
+HEAP:undefined
+HEAP8:Int8Array(16777216) [101, 109, 115, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, …]
+HEAP16:Int16Array(8388608) [28005, 25459, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, …]
+HEAP32:Int32Array(4194304) [1668509029, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, …]
+HEAPF32:Float32Array(4194304) [4.490441516634203e+21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, …]
+HEAPF64:Float64Array(2097152) [8.24352991e-315, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, …]
+HEAPU8:Uint8Array(16777216) [101, 109, 115, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, …]
+HEAPU16:Uint16Array(8388608) [28005, 25459, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, …]
+HEAPU32:Uint32Array(4194304) [1668509029, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, …]
+Pointer_stringify:ƒ Pointer_stringify(ptr, length)
+Runtime:{setTempRet0: ƒ, getTempRet0: ƒ, stackSave: ƒ, stackRestore: ƒ, getNativeTypeSize: ƒ, …}
+STATIC_BASE:1024
+STATIC_BUMP:17744
+UTF8ArrayToString:ƒ UTF8ArrayToString(u8Array, idx)
+UTF8ToString:ƒ UTF8ToString(ptr)
+abort:ƒ abort(what)
+addOnExit:ƒ addOnExit(cb)
+addOnInit:ƒ addOnInit(cb)
+addOnPostRun:ƒ addOnPostRun(cb)
+addOnPreMain:ƒ addOnPreMain(cb)
+addOnPreRun:ƒ addOnPreRun(cb)
+addRunDependency:ƒ addRunDependency(id)
+allocate:ƒ allocate(slab, types, allocator, ptr)
+arguments:Arguments [{…}, callee: ƒ, Symbol(Symbol.iterator): ƒ]
+asm:{_llvm_bswap_i32: ƒ, _main: ƒ, dynCall_i: ƒ, _rust_eh_personality: ƒ, setThrew: ƒ, …}
+asmGlobalArg:{Math: Math, Int8Array: ƒ, Int16Array: ƒ, Int32Array: ƒ, Uint8Array: ƒ, …}
+asmLibraryArg:{abort: ƒ, assert: ƒ, enlargeMemory: ƒ, getTotalMemory: ƒ, abortOnCannotGrowMemory: ƒ, …}
+asmPreload:undefined
+buffer:ArrayBuffer(16777216) {}
+callMain:ƒ callMain(args)
+calledRun:true
+ccall:ƒ ccallFunc(ident, returnType, argTypes, args, opts)
+cwrap:ƒ cwrap(ident, returnType, argTypes)
+dynCall_i:ƒ ()
+dynCall_ii:ƒ ()
+dynCall_iii:ƒ ()
+dynCall_iiii:ƒ ()
+dynCall_ji:ƒ ()
+dynCall_v:ƒ ()
+dynCall_vi:ƒ ()
+dynCall_vii:ƒ ()
+dynCall_viii:ƒ ()
+dynCall_viiii:ƒ ()
+dynCall_viiiii:ƒ ()
+dynCall_viiiiiii:ƒ ()
+establishStackSpace:ƒ ()
+exit:ƒ exit(status, implicit)
+getMemory:ƒ getMemory(size)
+getTempRet0:ƒ ()
+getValue:ƒ getValue(ptr, type, noSafe)
+intArrayFromString:ƒ intArrayFromString(stringy, dontAddNull, length)
+intArrayToString:ƒ intArrayToString(array)
+lengthBytesUTF8:ƒ lengthBytesUTF8(str)
+load:ƒ load(f)
+noExitRuntime:true
+onRuntimeInitialized:() => resolve(Module)
+postRun:[]
+preRun:[]
+preloadedAudios:{}
+preloadedImages:{}
+print:ƒ shell_print(x)
+printErr:ƒ shell_printErr(x)
+quit:ƒ (status, toThrow)
+read:ƒ shell_read(url)
+readAsync:ƒ readAsync(url, onload, onerror)
+reallocBuffer:ƒ (size)
+removeRunDependency:ƒ removeRunDependency(id)
+run:ƒ run(args)
+runPostSets:ƒ ()
+setTempRet0:ƒ ()
+setThrew:ƒ ()
+setValue:ƒ setValue(ptr, value, type, noSafe)
+setWindowTitle:ƒ (title)
+stackAlloc:ƒ ()
+stackRestore:ƒ ()
+stackSave:ƒ ()
+stackTrace:ƒ stackTrace()
+stderr:undefined
+stdin:undefined
+stdout:undefined
+stringToAscii:ƒ stringToAscii(str, outPtr)
+stringToUTF8:ƒ stringToUTF8(str, outPtr, maxBytesToWrite)
+stringToUTF8Array:ƒ stringToUTF8Array(str, outU8Array, outIdx, maxBytesToWrite)
+thisProgram:"./this.program"
+usingWasm:true
+wasmBinaryFile:"build/meow.wasm"
+wasmJSMethod:"native-wasm"
+wasmMaxTableSize:2688
+wasmMemory:Memory {}
+wasmTable:Table {}
+wasmTableSize:2688
+writeArrayToMemory:ƒ writeArrayToMemory(array, buffer)
+writeAsciiToMemory:ƒ writeAsciiToMemory(str, buffer, dontAddNull)
+writeStringToMemory:ƒ writeStringToMemory(string, buffer, dontAddNull)
+___errno_location:ƒ ()
+_emscripten_get_global_libc:ƒ ()
+_fflush:ƒ ()
+_fix_story:ƒ ()
+_free:ƒ ()
+_htonl:ƒ ()
+_htons:ƒ ()
+_llvm_bswap_i16:ƒ ()
+_llvm_bswap_i32:ƒ ()
+_main:ƒ ()
+_malloc:ƒ ()
+_memcpy:ƒ ()
+_memmove:ƒ ()
+_memset:ƒ ()
+_ntohs:ƒ ()
+_pthread_mutex_lock:ƒ ()
+_pthread_mutex_unlock:ƒ ()
+_rust_eh_personality:ƒ ()
+_sbrk:ƒ ()
